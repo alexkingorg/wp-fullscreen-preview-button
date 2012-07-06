@@ -1,8 +1,15 @@
 <?php
 
-// Add a preview button to the fullscreen editor toolbar.
+/*
+Plugin Name: Fullscreen Preview Button
+Description: Add a preview button to the fullscreen editor toolbar.
+Version: 1.0
+Author: Alex King
+Author URI: http://alexking.org
+License: GPL2
+*/
 
-function akv3_fullscreen_preview_button() {
+function ak_fullscreen_preview_button() {
 ?>
 <script type="text/javascript">
 ;(function($) {
@@ -12,5 +19,5 @@ function akv3_fullscreen_preview_button() {
 </script>
 <?php
 }
-add_action('admin_footer-post-new.php', 'akv3_fullscreen_preview_button');
-add_action('admin_footer-post.php', 'akv3_fullscreen_preview_button');
+add_action('admin_footer-post-new.php', 'ak_fullscreen_preview_button');
+add_action('admin_footer-post.php', 'ak_fullscreen_preview_button');
