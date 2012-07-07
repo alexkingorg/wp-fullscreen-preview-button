@@ -13,7 +13,8 @@ function ak_fullscreen_preview_button() {
 ?>
 <script type="text/javascript">
 ;(function($) {
-	$('#post-preview').clone().removeAttr('id').removeClass('preview')
+	$('#post-preview').clone()
+		.removeAttr('id').removeClass('preview')
 		.prependTo('#wp-fullscreen-save');
 }(jQuery));
 </script>
