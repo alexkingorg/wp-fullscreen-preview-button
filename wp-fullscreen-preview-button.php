@@ -3,7 +3,7 @@
 /*
 Plugin Name: Fullscreen Preview Button
 Description: Add a preview button to the fullscreen editor toolbar.
-Version: 1.1
+Version: 1.2
 Author: Alex King
 Author URI: http://alexking.org
 License: GPL2
