@@ -1,9 +1,9 @@
-=== Fullscreen Preview Button ===
+=== Distraction Free Preview Button ===
 Contributors: alexkingorg
 Tags: editor, fullscreen, preview
-Requires at least: 3.5
-Tested up to: 3.5
-Stable tag: 1.2
+Requires at least: 4.1
+Tested up to: 4.1
+Stable tag: 2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Adds a preview button to the fullscreen editor.
 
 == Description ==
 
-This plugin adds a "preview" button to the fullscreen (distraction-free) editor.
+This plugin adds a "preview" button to the distraction-free editor.
 
 **Contributing**
 
@@ -55,6 +55,10 @@ _None at this time._
 
 == Changelog ==
 
+= 2.0 =
+* This version requires WordPress 4.1 or later
+* Compatibility with the distraction free writing environment in WordPress 4.1
+
 = 1.2 =
 * First release on WordPress.org
 * Compatibility with WordPress 3.5
@@ -68,6 +72,6 @@ _None at this time._
 
 == Upgrade Notice ==
 
-= 1.2 =
-* First release on WordPress.org
-* Compatibility with WordPress 3.5
+= 2.0 =
+* This version requires WordPress 4.1 or later
+* Compatibility with the distraction free writing environment in WordPress 4.1
